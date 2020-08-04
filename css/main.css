@@ -1,0 +1,25 @@
+.split {
+  width:50%;
+}
+
+.chunk{
+  display: block;
+}
+
+.viz {
+  position: relative;
+  display: inline-block;
+  float: left;
+  top: 0;
+  width: 60%;
+  height: 60%;
+}
+
+.explanation{
+  position: relative;
+  display: inline-block;
+  float: right;
+  top: 0;
+  width: 40%;
+  height: 100%;
+}

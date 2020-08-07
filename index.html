@@ -1,38 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>w209 Final Project</title>
+<html>
+<head>
+      <title>FEC Election Analysis</title>
+      <link rel="stylesheet" type="text/css" href="./css/main.css" />
+</head>
+<body>
 
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body>
-    <div class="chart">
+      <div class="header-panel">
+            <h1>Exploring Voter Behavior</h1>
+            <div class="navbar">
+                  <a class="nav-item current" href="index.html">Home</a>
+                  <a class="nav-item" href="concurrent.html">Concurrent</a>
+                  <a class="nav-item" href="dropoff.html">Dropoff</a>
+                  <a class="nav-item" href="margins.html">Margins</a>
+                  <a class="nav-item" href="election.html">Election Snapshots</a>
+                  <a class="nav-item" href="history.html">Election History</a>
+            </div>
+      </div>
+
+      <div class="main-panel">
+            
+            <table>
+                  <tr>
+                        <td class = "home">
+                            <h3>Welcome!</h3>
+                            <br>
+
+                            While there is no end to data-driven reporting on US voter behavior, too often statistical nuance is sacrificed to make a more enticing story. Our website is an attempt to inject that nuance back into these potentially polarizaing conversations, with two audiences in mind:
+
+                            </br>
+                            </br>
+                            <ol>
+                              <li>
+                                High school and college students who are looking to explore quantitative storytelling in the context of civics. We've provided exercises to <i> complement </i> a class that covers basic summary statistcs (averages, medians, and percentiles), with a focus on how outliers and metric choices can complicate temptingly simple political narratives. The hope is that this kind of data literacy translates into a more informed, skeptical citizenry. Exercises can be found on the tabs 
+
+                                <a href="concurrent.html">Concurrent</a>,
+                                <a href="dropoff.html">Dropoff</a>,
+                                and
+                                <a href="margins.html">Margins</a>.
+
+                              </li>
+                              <br>
+                              <li>
+                                Consumers of the news, with the typical CNN viewer in mind. With an unceasing barrage of stories and controversies, it's easy to lose sight broader historical trends. We've provided a number of interactive graphics that allow news consumers to explore the inticacies of individual presidential elections (<a href="election.html">Election Snapshots</a>) as well as historical trends reaching back to 1976 (<a href="history.html">Election History</a>).
+                              </li>
+                              <br>
+                            </ol>
+
+                            <br>
+
+                            <h3> The Data </h3>
+                            <br>
+                            We use national election data from the 
+                            <a href="https://www.fec.gov/introduction-campaign-finance/election-and-voting-information/"> Federal Election Commission</a>. 
+                            For the educational exercises, we use House, Senate, and Presidential election data from 2004-2018, and for the election history and snapshots we use Presidential data stretching back to 1976.
+
+                            <br>
+                            <br>
+
+                            <h3> The Authors </h3>
+                            <br>
+                            <a href = "https://www.ischool.berkeley.edu/people/kyle-eschen">Kyle Eschen</a>
+                            <br>
+                            <a href = "https://www.ischool.berkeley.edu/people/tejinderpal-singh">Tejinderpal Signh</a>
+                            
+                            
+
+
+                        </td>
+
+                        <td class = "home">
+                             
+                            <img src = "anger.png"> 
+            
+                        </td>
+
+                  </tr>
+
+
+    
+            </table>
+            
 
       
-      <div id="header">
-        <h1>Exploring Voter Behavior with the Federal Election Commission</h1>
-        <div id="links">
-          <a href="index.html" class="active">Introduction</a>
-          <br/>
-          <a href="./html/concurrent.html">Concurrent Elections</a>
-          <br/>
-          <a href="./html/dropoff.html">Voter Dropoff</a>
-          <br/>
-          <a href="./html/margins.html">Margin of Victory</a>
-          <br/>
-          <a href="./html/election.html">Electoral Data by Timeslice</a>
-          <br/>
-          <a href="./html/history.html">Historical Election Data</a>
-          <br/>
       </div>
-    </div>
-    <br/>
-      <div class="description">
-        Hello...
-      </div>
-
+            
   </body>
 </html>
-
-

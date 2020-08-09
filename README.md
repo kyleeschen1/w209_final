@@ -10,9 +10,18 @@ We created this series of visualizations to expore US voter participation and ch
 
 To run:
 
-1. Create a folder, and navigate to it on the terminal
+1. Using the terminal, create and navigate to a folder
 
-```mkdir ~/Desktop/visualizations```
+   ```mkdir ~/Desktop/visualizations```
+
+2. Clone this repo.
+   ```git clone https://github.com/kyleeschen1/w209_final.git```
+   
+3. Run the following:
+    ```python -m http.server 8080```
+    
+4. Go into your browswer and enter the following url to see the website.
+   ```http://0.0.0.0:8080/```
 
 
 

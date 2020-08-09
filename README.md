@@ -10,6 +10,9 @@ We created this series of visualizations to expore US voter participation and ch
 
 [YouTube Demo](https://youtu.be/ADbyJoaaDQE)
 
+# Data
+
+Our data comes from the Federal Election Commission, and includes [House, Senate, and Presidential election data](https://www.fec.gov/introduction-campaign-finance/election-and-voting-information/) from 2004-2018, and [Presidential election](https://www.fec.gov/introduction-campaign-finance/election-and-voting-information/federal-elections-2016/) data by State and demographic from 1976-2016.
 
 # Setup
 

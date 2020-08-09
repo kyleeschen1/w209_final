@@ -8,7 +8,9 @@
 
 We created this series of visualizations to expore US voter participation and choices in national elections from 1976 to 2018. Using data from the Federal Election Commission, we've designed a number of exercises and graphics to help viewers understand the complexity and nuance behind the ebbs and flows of voter acitivity.
 
+[Project Website](http://people.ischool.berkeley.edu/~kyleeschen/exploring_voter_behavior/)
 [YouTube Demo](https://youtu.be/ADbyJoaaDQE)
+
 
 # Data
 
